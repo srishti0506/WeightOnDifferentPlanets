@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js" integrity="sha512-rCZdHNB0AePry6kAnKAVFMRfWPmUXSo+/vlGtrOUvhsxD0Punm/xWbEh+8vppPIOzKB9xnk42yCRZ5MD/jvvjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="./index.js" defer></script>
+    <script src="./index1.js" defer></script>
+
+</head>
+
+<body>
+    <h1 id="h1">Enter Your weight</h1> <input type="number" id="box1" name="box1" placeholder="Enter your weight">
+
+    <div id="main-container">
+        <div class="planetsList">
+            <div id="1" class="img-container" onclick="mw()">
+                <p id="cmn">Mercury 	</p>
+                <!-- <img onclick="mw()" src="images/mercury.png" alt="Italy" style="width:100%"> -->
+                <p id="mw"></p>
+            </div>
+            <div id="2" class="img-container" onclick="vw()">
+                <p id="cmn">Venus </p>
+                <!-- <img onclick="vw()" src="images/venus.png" alt="Forest" style="width:100%"> -->
+                <p id="vw"></p>
+            </div>
+            <div id="3" class="img-container" onclick="ew()">
+                <p id="cmn">Earth</p>
+                <!-- <img onclick="ew()" src="images/earth.png" alt="image" style="width:100%"> -->
+                <p id="tmw"></p>
+            </div>
+            <div id="4" class="img-container" onclick="marsw()">
+                <p id="cmn">Mars</p>
+                <!-- <img onclick="marsw()" src="images/mars.png" alt="image" style="width:100%"> -->
+                <p id="msw"></p>
+            </div>
+        </div>
+        <div class="planetsList">
+            <div id="5" class="img-container" onclick="jw()">
+                <p id="cmn">Jupiter</p>
+                <!-- <img onclick="jw()" src="images/jupiter.png" alt="image" style="width:100%"> -->
+                <p id="jpw"></p>
+            </div>
+            <div id="6" class="img-container" onclick="sw()">
+                <p id="cmn">Saturn</p>
+                <!-- <img onclick="sw()" src="images/saturn.png" alt="image" style="width:100%"> -->
+                <p id="sw"></p>
+            </div>
+            <div id="7" class="img-container" onclick="uw()">
+                <p id="cmn">Uranus</p>
+                <!-- <img onclick="uw()" src="images/uranus.png" alt="image" style="width:100%"> -->
+                <p id="ur"></p>
+            </div>
+            <div id="8" class="img-container" onclick="nw()">
+                <p id="cmn">Neptune</p>
+                <!-- <img onclick="nw()" src="images/neptune.png" alt="image" style="width:100%"> -->
+                <p id="ne"></p>
+            </div>
+        </div>
+
+
+
+        <!-- <div class="img-container">
+            <img onclick="pw()" src="images/pluto.png" alt="image" style="width:70%">
+            <p id="pu"></p>
+        </div> -->
+    </div>
+
+</body>
+
+</html>
